@@ -20,7 +20,7 @@ Implementamos um modelo de Machine Learning para prever o tempo de entrega de pe
 
 Abaixo estão os resultados de performance do modelo LightGBM, mostrando como ele se comporta em relação às previsões de tempo de entrega.
 
-![Print com os resultados do modelo](/home/thomas-linux/projects/deliverytime_forecast_linearregression/LinearRegression_deliverytime_forecast/predict_lr.png)
+![Print com os resultados do modelo]([/home/thomas-linux/projects/deliverytime_forecast_linearregression/LinearRegression_deliverytime_forecast/predict_lr.png](https://github.com/thomaskarsten90/LinearRegression_deliverytime_forecast/blob/feature/linearregression_deliveryforecast/predict_lr.png))
 
 Os principais indicadores de performance utilizados para avaliar o modelo incluem:
 
