@@ -16,6 +16,20 @@ Implementamos um modelo de Machine Learning para prever o tempo de entrega de pe
    - Um algoritmo de aprendizado por gradiente baseado em árvores, projetado para alta eficiência e precisão.
    - É ideal para lidar com grandes volumes de dados e detectar relações não lineares complexas.
 
+## Evidências de Performance do Modelo
+
+Abaixo estão os resultados de performance do modelo LightGBM, mostrando como ele se comporta em relação às previsões de tempo de entrega.
+
+![Print com os resultados do modelo](/home/thomas-linux/projects/deliverytime_forecast_linearregression/LinearRegression_deliverytime_forecast/predict_lr.png)
+
+Os principais indicadores de performance utilizados para avaliar o modelo incluem:
+
+- **R² (Coeficiente de Determinação):** Mede a qualidade do ajuste do modelo aos dados. Valores mais próximos de 1 indicam um bom ajuste.
+- **MAE (Erro Absoluto Médio):** Mede a diferença média entre os valores previstos e os reais, com valores menores indicando maior precisão nas previsões.
+- **RMSE (Raiz do Erro Quadrático Médio):** Penaliza mais fortemente os erros maiores, fornecendo uma medida robusta da precisão do modelo.
+
+Você pode acessar os resultados completos e a análise de performance no arquivo Excel disponível no repositório [aqui](/home/thomas-linux/projects/deliverytime_forecast_linearregression/LinearRegression_deliverytime_forecast/resultados_prediction.xlsx).
+
 ## Possibilidades nos Negócios
 Com regressão linear e LightGBM, é possível:
 - Identificar fatores críticos que afetam o tempo de entrega.
